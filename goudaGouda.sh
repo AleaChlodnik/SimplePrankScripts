@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# URL of the Rick Astley video
+# URL of the video
 VIDEO_URL=$1
 
 # Function to set volume using amixer (ALSA)
@@ -13,7 +13,7 @@ set_volume_pactl() {
     pactl set-sink-volume @DEFAULT_SINK@ 100% > /dev/null
 }
 
-# Function to open the Rick Astley video
+# Function to open the video
 open_video() {
     xdg-open "$VIDEO_URL" > /dev/null
 }
@@ -31,9 +31,9 @@ while true; do
         exit 1
     fi
 
-    # Open the Rick Astley video
+    # Open the video
     open_video
 
-    # Wait for 15 seconds before the next iteration
+    # Wait for 5 seconds before the next iteration
     sleep 5
 done
