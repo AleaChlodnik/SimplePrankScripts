@@ -7,7 +7,7 @@ if ! command -v xdotool &> /dev/null; then
 fi
 
 # Interval in seconds (5 minutes)
-INTERVAL=1
+INTERVAL=20
 
 while true; do
     # Simulate Alt+Tab using xdotool
