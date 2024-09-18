@@ -20,7 +20,7 @@ SHREK_ART="
 "
 
 
-sleep 30
+sleep 300
 
 # Print the ASCII art
 echo "$SHREK_ART"
