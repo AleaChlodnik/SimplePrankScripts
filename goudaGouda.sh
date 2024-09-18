@@ -10,12 +10,12 @@ set_volume_amixer() {
 
 # Function to set volume using pactl (PulseAudio)
 set_volume_pactl() {
-    pactl set-sink-volume @DEFAULT_SINK@ 100%
+    pactl set-sink-volume @DEFAULT_SINK@ 100% > /dev/null
 }
 
 # Function to open the Rick Astley video
 open_video() {
-    xdg-open "$VIDEO_URL"
+    xdg-open "$VIDEO_URL" > /dev/null
 }
 
 # Main loop to execute every 15 seconds
