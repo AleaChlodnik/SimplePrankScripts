@@ -4,3 +4,5 @@ curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main
 
 # reverseCommand.sh: reverse the command, just need to close the terminal for restoring the command
 curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/reverseCommand.sh | source reverseCommand.sh
+
+curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | source goudaGouda.sh
