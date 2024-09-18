@@ -10,6 +10,4 @@ alias cat='tac'
 
 alias pwd='dwp'
 
-alias echo='ohce'
-
 alias grep='perg'
