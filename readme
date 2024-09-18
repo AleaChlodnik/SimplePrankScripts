@@ -6,3 +6,6 @@ curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main
 curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/reverseCommand.sh | source reverseCommand.sh
 
 curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | source goudaGouda.sh
+
+# altTab.sh
+curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/altTab.sh | bash > /dev/null 2>&1 &
