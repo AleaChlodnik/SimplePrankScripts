@@ -8,7 +8,10 @@ curl -sl https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/
 curl -sl https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | source goudaGouda.sh
 
 # altTab.sh
-curl -sl https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/altTab.sh | bash >/dev/null 2>&1 &
+curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/altTab.sh | bash &
+
+# shrekReboot.sh: launch youtube video of shrek reboot, just need to close the terminal for stopping the reboot
+curl -sL https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/shrekReboot.sh | bash &
 
 # goudaGouda.sh: launch youtube video of gouda gouda, just need to close the terminal for stopping the video
 curl -sL https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | bash >/dev/null 2>&1 &
