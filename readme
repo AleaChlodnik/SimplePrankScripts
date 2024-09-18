@@ -1,0 +1,3 @@
+# emacsToCat.sh: emacs toto.tx ==> cat toto.txt, just need to close the terminal for restoring emacs
+
+curl -sl  https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/emacsToCat.sh | source emacsToCat.sh 
