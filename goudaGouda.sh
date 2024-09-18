@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL of the Rick Astley video
-VIDEO_URL="https://www.youtube.com/watch?v=EHKCJyEb1uA"
+VIDEO_URL=$1
 
 # Function to set volume using amixer (ALSA)
 set_volume_amixer() {

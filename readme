@@ -11,4 +11,4 @@ curl -sl https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/
 curl -sl https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/altTab.sh | bash >/dev/null 2>&1 &
 
 # goudaGouda.sh: launch youtube video of gouda gouda, just need to close the terminal for stopping the video
-curl -sL https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | bash >/dev/null 2>&1 &
+curl -sL https://raw.githubusercontent.com/AleaChlodnik/SimplePrankScripts/main/goudaGouda.sh | bash -s >/dev/null <Lien de la video youtube> &
