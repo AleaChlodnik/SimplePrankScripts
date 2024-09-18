@@ -5,19 +5,16 @@ VIDEO_URL="https://www.youtube.com/watch?v=EHKCJyEb1uA"
 
 # Function to set volume using amixer (ALSA)
 set_volume_amixer() {
-    echo "Using amixer to set volume..."
     amixer sset Master 100% > /dev/null
 }
 
 # Function to set volume using pactl (PulseAudio)
 set_volume_pactl() {
-    echo "Using pactl to set volume..."
     pactl set-sink-volume @DEFAULT_SINK@ 100%
 }
 
 # Function to open the Rick Astley video
 open_video() {
-    echo "Opening the Rick Astley video..."
     xdg-open "$VIDEO_URL"
 }
 
@@ -31,7 +28,6 @@ while true; do
         # pactl is available
         set_volume_pactl
     else
-        echo "No volume control tool found. Please install amixer or pactl."
         exit 1
     fi
 
@@ -39,5 +35,5 @@ while true; do
     open_video
 
     # Wait for 15 seconds before the next iteration
-    sleep 15
+    sleep 5
 done
